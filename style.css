@@ -206,9 +206,70 @@ footer p{
 
 /* Mobile devices */
  @media only screen and (max-width:688px) {
+     /* header-start */
      .copa-america-container{
-         background-color: red;
+         width: 100%; 
+         flex-direction: column;
      }
+     .section-title{
+        font-weight: 700;
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+        padding-bottom: 27px;
+    
+    }
+    .copa-america-container img{
+        width: 329px;
+        height: 259.17px;
+        margin-top: 50px;
+        margin-right: 80px;
+    }
+    /* header-end */
+
+    /* Players container Style */
+    .players-container{
+        width: 100%;
+        margin-left: 20px;
+    }
+    
+    .Players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+     /* Players container end Style */
+
+     /* highlights-start */
+     .copa-america-highlights{
+      width: 100%;
+      flex-direction: column;
+    }
+    .copa-america-highlights img{
+        width: 400px;
+        height: 248px;
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+    .section-title-highlights{
+        width: 292px;
+        height: 80px;
+        font-size: 30px;
+    }
+    /* highlights-end */
+    
+    /* scrollbar-start */
+   
+    .scroll-bar{
+        margin-left: 0;
+    }
+    /* footer */
+    .footer{
+        width: 100%;
+    }
+    footer img{
+        width: 300px;
+        height: 110px;
+    }
+   
  }
 
 /* @media only screen and (max-width:688px) {
@@ -229,4 +290,21 @@ footer p{
     .course{
         margin-bottom: 20px;
     }
+} */
+
+/* tablet devices */
+/* @media screen and (min-width: 688px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .players, .courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .course{
+        margin-bottom: 20px;
+    }
+    
 } */
