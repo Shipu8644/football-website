@@ -73,7 +73,6 @@ span{
     grid-row-gap: 27px;
     grid-column-gap: 30px;
     
-
 }
 .player{
     box-shadow: 10px 10px 40px gray;
@@ -207,38 +206,44 @@ footer p{
 /* Mobile devices */
  @media only screen and (max-width:688px) {
      /* header-start */
-     .copa-america-container{
-         width: 100%; 
-         flex-direction: column;
-     }
+     .copa-america-container {
+        width: 100%;
+        flex-direction: column;
+    }
+     
      .section-title{
-        font-weight: 700;
         font-size: 36px;
-        width: 278px;
-        height: 138px;
-        padding-bottom: 27px;
+         width: 278px; 
+         height: 138px; 
     
     }
     .copa-america-container img{
         width: 329px;
         height: 259.17px;
         margin-top: 50px;
-        margin-right: 80px;
+        margin-left: 0px;
     }
+    
     /* header-end */
 
     /* Players container Style */
     .players-container{
-        width: 100%;
-        margin-left: 20px;
+        margin-left: 0px;
+        margin-bottom: 30px;
     }
-    
     .Players{
-        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);  
+    } 
+    .player{
+        padding: 30px;
+        border-radius: 10px;
+        border: 3px solid blue;
     }
-     /* Players container end Style */
+   
+     /* Players container end Style end */
 
-     /* highlights-start */
+      /* highlights-start  */
      .copa-america-highlights{
       width: 100%;
       flex-direction: column;
@@ -247,7 +252,7 @@ footer p{
         width: 400px;
         height: 248px;
         margin-top: 50px;
-        margin-right: 100px;
+        margin-left: 0px;
     }
     .section-title-highlights{
         width: 292px;
@@ -257,13 +262,15 @@ footer p{
     /* highlights-end */
     
     /* scrollbar-start */
-   
+    
     .scroll-bar{
-        margin-left: 0;
-    }
-    /* footer */
-    .footer{
         width: 100%;
+        margin-left: 0;
+    } 
+    /* footer */
+    footer{
+        width: 100%; 
+        margin-bottom: 30px;
     }
     footer img{
         width: 300px;
