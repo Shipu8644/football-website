@@ -232,7 +232,7 @@ footer p{
     /* Players container Style */
     .players-container{
         margin-left: 0px;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
     }
     .Players{
         width: 100%;
@@ -252,21 +252,22 @@ footer p{
         
       width: 100%;
       flex-direction: column;
-      /* display: none; */
+      display: none; 
     }
     .highlights-detail{
         width: 100%;
-        margin-top: 100px;
-    }
-    .highlights-detail p{
-        width: 100%;
         margin-left: 0;
     }
+    
+    .copa-america-highlights p{
+        display: none;
+    }
+    
+    
     .section-title-highlights{
         font-size: 30px;
         width:300px;
-        margin-left: 0;
-        margin-right: 0;
+    
     }
     .copa-america-highlights{
         
